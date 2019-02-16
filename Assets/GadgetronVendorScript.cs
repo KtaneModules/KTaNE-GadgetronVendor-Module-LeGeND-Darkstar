@@ -69,19 +69,6 @@ public class GadgetronVendorScript : MonoBehaviour
 
     int answerNumber = 0;
 
-    /*/
-     * Notes to self:
-     * 
-     * (optional), add the persuader as an option for the PDA.
-     * Add buttons to submit an integer.
-     * Change HTML as needed.
-     * 
-     * Rules for submitting the correct number:
-     * 
-     * Price of each ammo the weapon requires + price of the weapon.
-     * (Possibly) Make it so the weapon might be too expensive to buy, thus change potential bolt numbers and add a rule that you might have to skip the weapon.
-     * If the PDA icon is lit then ammo prices are multiplied by 10.
-    /*/
     #region Starting Stuff
     void Awake()
     {
